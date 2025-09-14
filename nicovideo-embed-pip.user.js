@@ -27,6 +27,7 @@
 		"PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMTYwLTE2MHEtMzMgMC01Ni41LTIzLjVUODAtMjQwdi00ODBxMC0zMyAyMy41LTU2LjVUMTYwLTgwMGg2NDBxMzMgMCA1Ni41IDIzLjVUODgwLTcyMHY0ODBxMCAzMy0yMy41IDU2LjVUODAwLTE2MEgxNjBabTAtODBoNjQwdi00ODBIMTYwdjQ4MFptMCAwdi00ODAgNDgwWm0yODAtMjAwaDMyMHYtMjQwSDQ0MHYyNDBabTgwLTgwdi04MGgxNjB2ODBINTIwWiIvPjwvc3ZnPg==";
 
 	const button = document.createElement("button");
+	button.id = "nicovideo-embed-pip-start";
 	button.classList.add("f1lo5ua1");
 	const img = document.createElement("img");
 	img.src = `data:image/svg+xml;base64,${pip_svgBase64}`;
